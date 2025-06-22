@@ -143,6 +143,10 @@ svg {
     cursor: pointer;
 }
 
+.card svg:hover {
+    fill: rgb(25 146 212);
+}
+
 .card-icons {
     display: flex;
     gap: 20px;
