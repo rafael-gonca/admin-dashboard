@@ -93,7 +93,7 @@ svg {
     grid-column: 1;
     grid-row: 2;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-template-rows: repeat(3, 1fr);
     gap: 30px;
     padding: 20px;
@@ -112,6 +112,8 @@ svg {
 
 .card {
     background-color: white;
+    /* border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px; */
     border-radius: 25px;
     display: flex;
     flex-direction: column;
